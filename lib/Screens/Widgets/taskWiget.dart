@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:todo_application/SharedFiles/Styles/app-color.dart';
@@ -21,7 +20,6 @@ class TaskWidget extends StatelessWidget {
 
             // A pane can dismiss the Slidable.
             dismissible: DismissiblePane(onDismissed: () {
-              return
 
 
 
@@ -43,7 +41,7 @@ class TaskWidget extends StatelessWidget {
                 onPressed:(context) {
 
                 },
-                backgroundColor: Color(0xFF21B7CA),
+                backgroundColor: Colors.blue,
                 foregroundColor: Colors.white,
                 icon: Icons.settings,
                 label: 'Setting ',
