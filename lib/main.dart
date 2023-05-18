@@ -23,7 +23,7 @@ HomeLayout.routeName:(context)=>HomeLayout(),
   },
        theme: MyThemeData.lightTheme,
       themeMode:ThemeMode.light,
-    
+
 
     );
 

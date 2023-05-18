@@ -14,6 +14,7 @@ class MyThemeData {
               color: Colors.white,
           ),
 
+
           bodyMedium: GoogleFonts.poppins(
               fontSize: 18,
               fontWeight: FontWeight.w600,
@@ -24,14 +25,13 @@ class MyThemeData {
               color: Colors.black),
          ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          backgroundColor: Colors.white,
-          type: BottomNavigationBarType.shifting,
+          backgroundColor: Colors.transparent,
           unselectedItemColor: Colors.grey.shade400,
           selectedItemColor: lightColor,
-
          ),
       appBarTheme: AppBarTheme(
         backgroundColor: lightColor,
 
-  ));
+  ),
+  bottomAppBarColor: Colors.white);
  }
