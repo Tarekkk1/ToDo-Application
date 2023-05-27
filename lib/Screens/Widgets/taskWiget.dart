@@ -16,15 +16,15 @@ class TaskWidget extends StatelessWidget {
           startActionPane: ActionPane(
             dragDismissible: true,
             // A motion is a widget used to control how the pane animates.
-            motion: const ScrollMotion(),
+            motion:  ScrollMotion(),
 
             // A pane can dismiss the Slidable.
-            dismissible: DismissiblePane(onDismissed: () {
-
-
-
-
-            }),
+            // dismissible: DismissiblePane(onDismissed: () {
+            //
+            //
+            //
+            //
+            // }),
 
             // All actions are defined in the children parameter.
             children:  [ // A SlidableAction can have an icon and/or a label.
@@ -33,7 +33,8 @@ class TaskWidget extends StatelessWidget {
 
                 },
                 backgroundColor: Color(0xFFFE4A49),
-                foregroundColor: Colors.red,
+                foregroundColor: Colors.white,
+
                 icon: Icons.delete,
                 label: 'Delete',
               ),
@@ -48,11 +49,10 @@ class TaskWidget extends StatelessWidget {
               ),
             ],
           ),
-          child:
-
-          Container(
+          child:  Container(
             alignment: Alignment.centerLeft,
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.only(left: 20
+            ,top: 20, right: 20),
             height: 100,
             decoration: BoxDecoration(
                 borderRadius:   BorderRadius.circular(20)

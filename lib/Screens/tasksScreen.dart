@@ -45,11 +45,24 @@ DateTime dateTime =DateTime.now();
     },
     ),
             ),
-          SingleChildScrollView(child:
+          Expanded(
 
 
 
-          TaskWidget())]);
+              child: ListView(
+
+                children: [
+              TaskWidget(),
+              TaskWidget(),
+              TaskWidget(),
+              TaskWidget(),
+              TaskWidget(),
+
+            ],
+          )
+          )
+          ]
+        );
 
 
   }}
